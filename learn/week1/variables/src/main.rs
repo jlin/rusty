@@ -30,5 +30,4 @@ fn main() {
     //this fails because e cannot be accessed from outer scope
     // println!("e is : {e}"); 
    
-
 }

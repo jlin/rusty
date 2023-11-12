@@ -82,5 +82,10 @@ fn main() {
 
     let a1: Age = 43;
 
+    // array types
+    type Dog = (String, i8);
+    let dog1 : Dog = (String::from("Snoopy"), 14);
+    println!("My dog {} is {} years old", dog1.0, dog1.1);
+
 
 }

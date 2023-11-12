@@ -14,7 +14,8 @@ fn main() {
     let i1: u8 = 1;
     let i2: u16 = 1;
     let i3: u32 = 1;
-    let i4: u64 = 1;
+    let i4: u64 = 400_000; // _ are ok for demarking numbers!
+    println!("_ demarking large numbers {i4}");
     let i5: u128 = 1;
 
     // signed integer

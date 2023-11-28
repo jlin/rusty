@@ -10,8 +10,10 @@ fn main() {
     // can't run this line because ownership of s1 moved into the function
     //println!("s1 is {s1}");
 
-    // can't borrow here because print_this_and_take_ownership takes over and the variable is dropped at the end of that function
-    // print_this_by_borrowing(r1); // invalid, previously move is invalid 
+    /*
+    can't borrow here because print_this_and_take_ownership takes over and the variable is dropped at the end of that function
+    print_this_by_borrowing(r1); // invalid, previously move is invalid 
+    */
 
 }
 
